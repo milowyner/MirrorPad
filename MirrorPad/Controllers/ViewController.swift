@@ -50,4 +50,12 @@ public class ViewController: UIViewController {
   @IBAction public func sharePressed(_ sender: Any) {
 
   }
+  
+  // MARK: - ViewLifecycle
+  public override func viewDidLoad() {
+    super.viewDidLoad()
+    mirrorDrawViews.forEach {
+      inputDrawView.multicastDelegate.addDelegate($0)
+    }
+  }
 }

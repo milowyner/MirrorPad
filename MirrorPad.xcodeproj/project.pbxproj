@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05AD702F25CA36E2007FE198 /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD702E25CA36E2007FE198 /* MulticastDelegate.swift */; };
 		05AF3FF525C8BDA000D4F49B /* AcceptInputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF3FF425C8BDA000D4F49B /* AcceptInputState.swift */; };
 		05AF3FF925C8BDA600D4F49B /* AnimateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF3FF825C8BDA600D4F49B /* AnimateState.swift */; };
 		05AF3FFC25C8BDAC00D4F49B /* ClearState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AF3FFB25C8BDAC00D4F49B /* ClearState.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05AD702E25CA36E2007FE198 /* MulticastDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticastDelegate.swift; sourceTree = "<group>"; };
 		05AF3FF425C8BDA000D4F49B /* AcceptInputState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptInputState.swift; sourceTree = "<group>"; };
 		05AF3FF825C8BDA600D4F49B /* AnimateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateState.swift; sourceTree = "<group>"; };
 		05AF3FFB25C8BDAC00D4F49B /* ClearState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearState.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		05FF7C3A25C4D4DE0086A9AD /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				05AD702E25CA36E2007FE198 /* MulticastDelegate.swift */,
 				05FF7C3C25C4D5090086A9AD /* Copying.swift */,
 			);
 			path = Protocols;
@@ -227,6 +230,7 @@
 				05AF3FFC25C8BDAC00D4F49B /* ClearState.swift in Sources */,
 				05FF7C3D25C4D5090086A9AD /* Copying.swift in Sources */,
 				42F35C3620449C9A00584FAD /* AppDelegate.swift in Sources */,
+				05AD702F25CA36E2007FE198 /* MulticastDelegate.swift in Sources */,
 				05AF3FF525C8BDA000D4F49B /* AcceptInputState.swift in Sources */,
 				424387E420449D300056B653 /* DrawView.swift in Sources */,
 			);
